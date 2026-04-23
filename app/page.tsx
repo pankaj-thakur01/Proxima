@@ -286,7 +286,7 @@ src=
 
           <div className="grid lg:grid-cols-3 md:grid-cols-2  gap-8">
             {services.map((item, i) => (
-              <div key={i} className="hover:scale-105 active:scale-95 bg-white rounded-xl p-4  space-y-4 shadow-md overflow-hidden active:shadow-xl active:shadow-black hover:shadow-xl hover:shadow-black transition"  >
+              <div key={i} className="hover:scale-105 active:scale-105 bg-white rounded-xl p-4  space-y-4 shadow-md overflow-hidden active:shadow-xl active:shadow-black hover:shadow-xl hover:shadow-black transition"  >
                 <img src={item.img.src} alt={item.title} className="w-full rounded-xl object-cover" />
                 <div className="p-5">
                   <h3 className="font-semibold text-lg mb-2">  {item.title}</h3>
