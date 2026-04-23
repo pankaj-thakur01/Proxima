@@ -201,7 +201,7 @@ export default function Home() {
 
         {/* Main Header */}
 
-        <div className=' flex text-xl text-black justify-between px-10 lg:px-30 items-center bg-white'>
+        <div className=' flex text-xl text-black justify-between px-2 lg:px-30 items-center bg-white'>
           <div>
             <div>
               <Image src={proxima} className='cursor-pointer' alt='logo' width={140} height={100} />
@@ -489,9 +489,9 @@ src=
       </section>
 
       {/* footer */}
-      <footer className="bg-[#1f3b82] text-white pt-16 pb-6 px-6">
+      <footer className="bg-[#1f3b82] text-white px-30  pt-16 pb-6 lg:px-6">
 
-        <div className="max-w-7xl mx-auto grid md:grid-cols-6 gap-10">
+        <div className="max-w-7xl mx-auto grid  lg:grid-cols-6 gap-10">
 
           {/* LEFT INFO */}
           <div className="md:col-span-2">
@@ -557,9 +557,9 @@ src=
           {/* CONTACT */}
           <div>
             <h3 className="font-semibold mb-4 text-lg">Connect With Us</h3>
-            <ul className="space-y-3 text-gray-200 text-sm leading-relaxed">
+            <ul className="space-y-3 w-full text-gray-200 text-sm leading-relaxed">
               <li>📞 +91 9266474032</li>
-              <li>✉️ info@elysiandigitalservices.com</li>
+              <li><span>✉️ info@elysiandigitalservices.com</span></li>
               <li>
                 📍 DLF 40, Kirti Nagar Industrial Area, Moti Nagar,
                 New Delhi, India - 110015
