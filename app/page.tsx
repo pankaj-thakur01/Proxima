@@ -475,7 +475,7 @@ src=
                   <option>Marketing</option>
                 </select>
 
-                <textarea placeholder="Type Your Message" rows="4" className="md:col-span-2 p-4 rounded-xl border outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+                <textarea placeholder="Type Your Message" rows={4} className="md:col-span-2 p-4 rounded-xl border outline-none focus:ring-2 focus:ring-blue-400"></textarea>
 
                 <div className="md:col-span-2">
                   <button className="bg-red-600 text-white px-8 py-3 rounded-full hover:bg-red-700 transition">Submit Now</button>
