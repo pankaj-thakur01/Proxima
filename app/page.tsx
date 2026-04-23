@@ -241,10 +241,10 @@ src=
             <div className='bg-white lg:hidden'>
               <ul className='flex-col px-6 text-black gap-4  text-lg font-semibold'>
 
-                <a onClick={()=>setopenmenu(false)}  href="#home">     <li className='w-full cursor-pointer hover:bg-gray-50 p-3 border-b' >Home</li></a>
-                <a onClick={()=>setopenmenu(false)} href="#about">    <li className='w-full cursor-pointer hover:bg-gray-50 p-3 border-b' >About Us</li></a>
-                <a onClick={()=>setopenmenu(false)} href="#services"> <li className='w-full cursor-pointer hover:bg-gray-50 p-3 border-b' >Service</li></a>
-                <a onClick={()=>setopenmenu(false)} href="#contact"> <li  className='w-full cursor-pointer hover:bg-gray-50 p-3 border-b' >Contact Us</li></a>
+                <a onClick={()=>setopenmenu(false)}  href="#home">     <li className='w-full cursor-pointer active:bg-gray-50  hover:bg-gray-50 p-3 border-b' >Home</li></a>
+                <a onClick={()=>setopenmenu(false)} href="#about">    <li className='w-full cursor-pointer  active:bg-gray-50 hover:bg-gray-50 p-3 border-b' >About Us</li></a>
+                <a onClick={()=>setopenmenu(false)} href="#services"> <li className='w-full cursor-pointer  active:bg-gray-50 hover:bg-gray-50 p-3 border-b' >Service</li></a>
+                <a onClick={()=>setopenmenu(false)} href="#contact"> <li  className='w-full cursor-pointer  active:bg-gray-50 hover:bg-gray-50 p-3 border-b' >Contact Us</li></a>
 
               </ul>
             </div>
@@ -491,9 +491,9 @@ src=
       {/* footer */}
       <footer className="bg-[#1f3b82] text-white px-30  pt-16 pb-6 lg:px-6">
 
-        <div className="max-w-7xl mx-auto grid  lg:grid-cols-6 gap-10">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-10">
 
-          {/* LEFT INFO */}
+          
           <div className="md:col-span-2">
             <h2 className="text-2xl font-bold mb-4">Proxima Digital Agency</h2>
 
@@ -529,7 +529,6 @@ src=
             </ul>
           </div>
 
-          {/* USEFUL LINKS */}
           <div>
             <h3 className="font-semibold mb-4 text-lg">Useful Links</h3>
             <ul className="space-y-2 text-gray-200 text-sm">
@@ -541,7 +540,6 @@ src=
             </ul>
           </div>
 
-          {/* SERVICES */}
           <div>
             <h3 className="font-semibold mb-4 text-lg">Our Services</h3>
             <ul className="space-y-2 text-gray-200 text-sm">
@@ -554,7 +552,6 @@ src=
             </ul>
           </div>
 
-          {/* CONTACT */}
           <div>
             <h3 className="font-semibold mb-4 text-lg">Connect With Us</h3>
             <ul className="space-y-3 w-full text-gray-200 text-sm leading-relaxed">
@@ -569,7 +566,6 @@ src=
 
         </div>
 
-        {/* BOTTOM */}
         <div className="border-t border-gray-400 mt-12 pt-5 text-center text-sm text-gray-200">
           Copyright © 2026 Elysian Digital Services. All rights reserved.
         </div>
